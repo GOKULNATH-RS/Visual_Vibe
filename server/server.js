@@ -15,5 +15,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("MERN TEMPLATE APP");
+  res.send("Welcome to Visual vibe's server!");
 });
