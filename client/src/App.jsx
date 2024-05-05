@@ -1,3 +1,5 @@
+import TestImg from "./TestImg";
+
 function App() {
   return (
     <>
@@ -7,6 +9,8 @@ function App() {
       <button className="btn bg-dark-100 text-light-100 shadow-light-100">
         Button
       </button>
+
+      <TestImg />
     </>
   );
 }
