@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
 
 const TestImg = () => {
   const [img, setImg] = useState(null);
@@ -16,7 +16,7 @@ const TestImg = () => {
     <div>
       <h1>Test Image</h1>
 
-      {parse(`${img}`)}
+      <img src={img} alt="Image" />
     </div>
   );
 };
